@@ -15,12 +15,12 @@
   </div>
   <div class="container" id="main">
       <div class="row-fluid">
-        <div class="span8">
+        <div class="span9">
           <div id="content">
             {{ content | expand_urls: root_url }}
           </div>
         </div>
-        <div class="span4">
+        <div class="span3">
           <aside class="sidebar">
             {% if site.blog_index_asides.size %}
               {% include_array blog_index_asides %}
