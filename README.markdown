@@ -1,41 +1,41 @@
-## What is Octopress?
+Instructions to contribute:
 
-Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
+1) Download this repo:
 
-1. **Octopress sports a clean responsive theme** written in semantic HTML5, focused on readability and friendliness toward mobile devices.
-2. **Code blogging is easy and beautiful.** Embed code (with [Solarized](http://ethanschoonover.com/solarized) styling) in your posts from gists, jsFiddle or from your filesystem.
-3. **Third party integration is simple** with built-in support for Pinboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics.
-4. **It's easy to use.** A collection of rake tasks simplifies development and makes deploying a cinch.
-5. **Ships with great plug-ins** some original and others from the Jekyll community &mdash; tested and improved.
+```
+$ git clone git@github.com:bayesimpact/bayesimpact.github.io.git
+```
 
-**Note**: Octopress requires a minimum Ruby version of `1.9.3-p0`.
+2) Checkout the `source` branch.
 
-## Documentation
+```
+$ git checkout source
+```
 
-Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
-It should all apply to our current stable version (found in the `master`
-branch). If this is not the case, [please submit a
-fix to our docs repo](https://github.com/octopress/docs).
+3) Install all necessary Ruby gems
 
-## Contributing
+```
+$ bundle install
+```
 
-[![Build Status](https://travis-ci.org/imathis/octopress.png?branch=master)](https://travis-ci.org/imathis/octopress)
+If you don't have Ruby > 1.9.3 installed (check with `ruby --version`), follow instructions [here](https://github.com/sstephenson/rbenv#installation) to get rbenv (a Ruby version manager) and to install Ruby 2.1.2. Then type in
 
-We love to see people contributing to Octopress, whether it's a bug report, feature suggestion or a pull request. At the moment, we try to keep the core slick and lean, focusing on basic blogging needs, so some of your suggestions might not find their way into Octopress. For those ideas, we started a [list of 3rd party plug-ins](https://github.com/imathis/octopress/wiki/3rd-party-plugins), where you can link your own Octopress plug-in repositories. For the future, we're thinking about ways to easier add them into our main releases.
+```
+$ gem install bundler
+```
 
+4) Finally, use this command to set up an automatic rake deploy task
 
-## License
-(The MIT License)
+```
+rake setup_github_pages
+```
 
-Copyright © 2009-2013 Brandon Mathis
+In the prompt, enter `git@github.com:bayesimpact/bayesimpact.github.io.git`
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Now you have a clone of the Octopress blog source that can create the master used to serve assets on the github page. When you make changes, make them on the `source` branch (or a branch off the `source`) branch. Then use this command:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+```
+rake deploy
+```
 
-THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-#### If you want to be awesome.
-- Proudly display the 'Powered by Octopress' credit in the footer.
-- Add your site to the Wiki so we can watch the community grow.
+to update the live site. It should take < 30 secs to see changes.
