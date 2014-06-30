@@ -7,3 +7,27 @@
   min-height: 200px;
   z-index: 100;
 }
+
+.navbar {
+  .brand {
+    text-transform: uppercase;
+  }
+
+  .nav li.navlink a, .nav li.navlink-element span {
+    display: block;
+    padding: 0 10px;
+    margin: 25px 5px;
+    line-height: 35px;
+    border-radius: 0;
+    text-transform: uppercase;
+
+    &:hover {
+      background: inherit;
+    }
+  }
+
+  #back-to-main-site a {
+    border: 1px solid white;
+    border-radius: 12px;
+  }
+}
