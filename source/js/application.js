@@ -1,3 +1,22 @@
+// bind header animation
+
+function bindHeaderAnimation() {
+  if ($(".navbar").length > 0) {
+    if ($(".navbar").offset().top > 50) {
+      $(".navbar-fixed-top").addClass("minimized");
+    } else {
+      $(".navbar-fixed-top").removeClass("minimized");
+    }
+  }
+
+  $(window).on('scroll', function() {
+    $(window).off('scroll');
+    setTimeout(bindHeaderAnimation, 100);
+  });
+}
+
+bindHeaderAnimation();
+
 // Some general UI pack related JS
 
 $(document).ready(function() {

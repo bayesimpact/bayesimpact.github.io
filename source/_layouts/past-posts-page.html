@@ -1,19 +1,27 @@
 ---
 layout: default
 ---
-
-<article role="article">
-  {% if page.title %}
+{% if page.title %}
   <header>
-    <div class="jumbotron">
+    <div class="jumbotron smaller">
       {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+      {% if page.subtitle %}
+        <h3>{{ page.subtitle }}</h3>
+      {% endif %}
     </div>
   </header>
-  {% endif %}
-  {{ content }}
-</article>
-{% for post in site.posts limit: site.recent_posts %}
-  <li class="post">
-    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
-  </li>
-{% endfor %}
+{% endif %}
+<div class='container'>
+  <div class='row-fluid'>
+    <div class='span12'>
+      <article role="article">
+        {{ content }}
+      </article>
+      {% for post in site.posts limit: site.recent_posts %}
+        <li class="post">
+          <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </div>
+  </div>
+</div>

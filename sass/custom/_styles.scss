@@ -1,16 +1,34 @@
+/* import typography */
+@import "typography.scss";
+
 // Add your custom styling here.
+body {
+  padding: 0 !important;
+}
+
 .recent_posts {
-  margin-top: 60px;
   position: relative;
-  border-left: 1px solid orange;
   padding-left: 30px;
   min-height: 200px;
   z-index: 100;
 }
 
 .navbar {
+  color: white;
+  margin: 0 !important;
+  padding: 30px;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  &.minimized {
+    padding: 0px;
+    background: $navbar-color;
+  }
   .brand {
     text-transform: uppercase;
+  }
+  .container {
+    margin-top: 0;
   }
 
   .nav li.navlink a, .nav li.navlink-element span {
@@ -26,8 +44,33 @@
     }
   }
 
+  .navbar-inner {
+    box-shadow: none;
+  }
+
   #back-to-main-site a {
     border: 1px solid white;
     border-radius: 12px;
+    padding: 0 20px;
+    margin-left: 20px;
   }
+}
+
+.jumbotron {
+  text-align: center;
+  padding: 200px 0;
+  text-shadow: rgb(0, 0, 0) 2px 2px 9px;
+  h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  &.smaller {
+    height: 400px;
+    padding: 150px 0;
+  }
+}
+
+.container {
+  margin-top: 50px;
 }

@@ -1,4 +1,3 @@
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
 @font-face {
   font-family: "Flat-UI-Icons-16";
   src: url("../fonts/Flat-UI-Icons-16.eot");
@@ -85,7 +84,7 @@
   content: "\e012"; }
 
 .fui-bubble-16:before {
-  content: "\e013"; 
+  content: "\e013";
   color: $secondary-color;}
 
 @font-face {
@@ -179,7 +178,7 @@
 body {
   color: $text-color;
   background: $bg-color;
-  font: 18px/1.831 "Open Sans", sans-serif; }
+  font: 18px/1.831 "sinkin_sans400_regular", sans-serif; }
 
 p {
   font-weight: 300; }
@@ -199,8 +198,8 @@ a {
 h1 {
   color: $primary-color;
   font-size: 32px;
-  font-weight: 900; 
-  font-family: "Quicksand"; }
+  font-weight: 900;
+  font-family: "sinkin_sans400_regular"; }
   .date-time{
     font-size: 15px;
     color: $accent-color2;
@@ -215,14 +214,14 @@ h2 {
   color: $primary-color;
   font-size: 26px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: "sinkin_sans400_regular";
   margin-bottom: 2px; }
 
 h3 {
   color: $accent-color2;
   font-size: 24px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: "sinkin_sans400_regular";
   margin-bottom: 4px;
   margin-top: 2px; }
   .tagline
@@ -234,7 +233,7 @@ h4 {
   color: $accent-color2;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: "sinkin_sans400_regular";
   line-height: 18px;
   margin-top: 4px; }
 
@@ -242,7 +241,7 @@ h5 {
   color: $accent-color2;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: "sinkin_sans400_regular";
   text-transform: none; }
   .date{
     margin-top: 26px;
@@ -252,7 +251,7 @@ h6 {
   color: $accent-color2;
   font-size: 13px;
   font-weight: 500;
-  font-family: "Quicksand";
+  font-family: "sinkin_sans400_regular";
   text-transform: none; }
 
 .btn {
@@ -545,7 +544,9 @@ h6 {
   .demo-browser {
     background-image: url("../images/demo/browser-2x.png"); } }
 .navbar {
-  font-size: 18px; }
+  font-size: 12px;
+  font-family: 'sinkin_sans700_bold'
+}
   .navbar .brand {
     color: $tertiary-color;
     font-size: inherit;
@@ -557,7 +558,8 @@ h6 {
   .navbar .nav > li > ul {
     padding-top: 13px;
     top: 80%;
-    background-color: white\9; }
+    background-color: white\9;
+  }
     .navbar .nav > li > ul:before {
       content: "";
       border-style: solid;
@@ -577,8 +579,8 @@ h6 {
     .navbar .nav > li > ul li ul {
       left: 100%; }
   .navbar .nav > li > a {
-    padding: 15px 15px 17px; 
-    margin-top: 4px; 
+    padding: 15px 15px 17px;
+    margin-top: 4px;
     border-radius: 5px;
     -moz-border-radius: 5px; }
     .navbar .nav > li > a:hover {
@@ -644,10 +646,10 @@ h6 {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 
 .navbar-inverse .navbar-inner {
-  background: $navbar-color;
+  background: transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); }
 .navbar-inverse .nav > li > a {
-  color: $accent-color3; 
+  color: $accent-color3;
   font-weight: 300; }
 .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
   background-color: transparent;
@@ -849,7 +851,7 @@ input[type="color"],
 .uneditable-input {
   border: 2px solid #dce4ec;
   color: $bg-color;
-  font-family: "Lato", sans-serif;
+  font-family: "sinkin_sans400_regular", sans-serif;
   font-size: 14px;
   padding: 8px 0 9px 10px;
   text-indent: 1px;
@@ -1311,7 +1313,7 @@ textarea,
     background: transparent;
     border: none;
     color: $bg-color;
-    font-family: "Lato", sans-serif;
+    font-family: "sinkin_sans400_regular", sans-serif;
     font-size: 14px;
     margin: 0px;
     padding: 0 0 0 5px;
@@ -1983,7 +1985,7 @@ body.vjs-full-window {
   bottom: 4em;
   left: 1em;
   right: 1em;
-  font-family: "Lato", sans-serif; }
+  font-family: "sinkin_sans400_regular", sans-serif; }
 .video-js .vjs-text-track {
   display: none;
   color: white;
@@ -2199,7 +2201,7 @@ body.vjs-full-window {
   height: 20px;
   width: 50px;
   top: 16px;
-  font: 300 13px "Lato", sans-serif; }
+  font: 300 13px "sinkin_sans400_regular", sans-serif; }
 
 .vjs-current-time {
   right: 128px;
@@ -2579,10 +2581,18 @@ body.vjs-full-window {
 .jumbotron {
   font-size: 60px;
   line-height: 70px;
-  font-family: "Quicksand";
+  font-family: "economicaregular";
   position: relative;
   padding: 70px 0;
-  color: $primary-color; }
+  box-sizing: border-box;
+  height: 600px;
+  color: white;
+  background: url('/images/bg.jpg') 50% 80%;
+  background-size: cover;
+  h3 {
+    color: white;
+  }
+}
 .jumbotron:after {
   content: '';
   display: block;
@@ -2629,7 +2639,7 @@ hr { display: block; height: 1px;
 }
 
 a > .badge {
-  color: $accent-color3;  
+  color: $accent-color3;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
   -o-transition: 0.25s;

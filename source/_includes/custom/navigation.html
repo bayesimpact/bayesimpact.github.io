@@ -3,6 +3,5 @@
   {% for link in site.navigation %}
     <li {% if page.url == link.url %}class="active navlink"{% else %}class="navlink"{% endif %}><a href="{{ link.url }}">{{ link.text }}</a></li>
   {% endfor %}
-  <li class='navlink-element'><span>|</span></li>
   <li class='navlink' id='back-to-main-site'><a href="http://www.bayesimpact.org">Bayes Impact Home</a></li>
 </ul>

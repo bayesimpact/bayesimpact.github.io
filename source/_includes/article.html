@@ -21,7 +21,7 @@
     </div>
     {% endif %}
     <div class="span10 post-container">
-      <h1 class="link"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2 class="link"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h2>
       {{ content | excerpt }}
       {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
       {% if excerpted == 'true' %} <a href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a> {% endif %}
@@ -29,15 +29,20 @@
   </div>
 {% else %}
 <header>
-  <div class="jumbotron">
+  <div class="jumbotron smaller">
     {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
-  {% if false %}<h5>{% include post/date.html %}<i class="icon-calendar-empty"></i> {{ time }}</h5>{% endif %}
+    {% if false %}<h5>{% include post/date.html %}<i class="icon-calendar-empty"></i> {{ time }}</h5>{% endif %}
+    {% if page.subtitle %}
+      {{% page.subtitle %}}
+    {% endif %}
   </div>
 </header>
+<div class='container'>
   <div class="row-fluid">
     <div class="span12">
       {{ content }}
     </div>
   </div>
+</div>
 {% endif %}
 {% endunless %}
