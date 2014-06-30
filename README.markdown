@@ -38,7 +38,7 @@ rake setup_github_pages
 
 In the prompt, enter `git@github.com:bayesimpact/bayesimpact.github.io.git`
 
-Now you have a clone of the Octopress blog source that can create the master used to serve assets on the github page. When you make changes, make them on the `source` branch (or a branch off the `source`) branch. Then use this command:
+Now you have a clone of the Octopress blog source that can create the master used to serve assets on the github page. When you make changes, make them on the `source` branch (or a branch off the `source`) branch. Go into the `_deploy` folder and use `$ git branch -D source`. Then use this command:
 
 ```
 rake deploy
@@ -63,4 +63,3 @@ rake preview
 ```
 
 Make changes to files in the `source` and `sass` folders. `rake watch` and `rake generate` will use those files to generate assets in `public`, which is where the files served by github pages lives.
-
