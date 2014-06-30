@@ -60,15 +60,8 @@ body {
   text-align: center;
   padding: 200px 0;
   text-shadow: rgb(0, 0, 0) 2px 2px 9px;
-  h1 {
-    font-size: 60px;
-    color: white;
-    margin-bottom: 30px;
-  }
-  &.smaller {
-    height: 400px;
-    padding: 150px 0;
-  }
+  height: 400px;
+  padding: 150px 0;
 }
 
 .container {
