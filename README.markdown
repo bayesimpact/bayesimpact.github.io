@@ -44,7 +44,7 @@ Now you have a clone of the Octopress blog source that can create the master use
 rake deploy
 ```
 
-to update the live site. It should take < 30 secs to see changes.
+to update the live site. It should take < 5 min to see changes.
 
 ---
 
