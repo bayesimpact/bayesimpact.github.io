@@ -6,6 +6,12 @@ Instructions to contribute:
 $ git clone git@github.com:bayesimpact/bayesimpact.github.io.git
 ```
 
+(if you don't have SSH set up with Github, use this instead):
+
+```
+$ git clone https://github.com/bayesimpact/bayesimpact.github.io.git
+```
+
 2) Checkout the `source` branch.
 
 ```
@@ -39,3 +45,22 @@ rake deploy
 ```
 
 to update the live site. It should take < 30 secs to see changes.
+
+---
+
+**Octopress basics**
+
+To auto-regenarate assets as you change them, use this command:
+
+```
+rake watch
+```
+
+To auto-preview at `localhost:4000`, use this command:
+
+```
+rake preview
+```
+
+Make changes to files in the `source` and `sass` folders. `rake watch` and `rake generate` will use those files to generate assets in `public`, which is where the files served by github pages lives.
+
