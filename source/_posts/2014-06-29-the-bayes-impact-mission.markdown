@@ -4,7 +4,6 @@ title: "The Bayes Impact Mission"
 subtitle: "Solving ambitious social challenges using data science"
 date: 2014-07-01 10:13:02 -0700
 comments: true
-sharing: true
 categories:
 ---
 <h4 style="padding-top:8px;">Solving ambitious social challenges using data science</h4>
