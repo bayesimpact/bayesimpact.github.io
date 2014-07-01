@@ -1,30 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Bayes Impact Blog]]></title>
-  <link href="http://blog.bayesimpact.org/atom.xml" rel="self"/>
-  <link href="http://blog.bayesimpact.org/"/>
-  <updated>2014-07-01T01:53:48-07:00</updated>
-  <id>http://blog.bayesimpact.org/</id>
+  <title><![CDATA[BayesImpact Blog]]></title>
+  <link href="http://bayesimpact.github.io/atom.xml" rel="self"/>
+  <link href="http://bayesimpact.github.io/"/>
+  <updated>2014-07-01T02:17:39-07:00</updated>
+  <id>http://bayesimpact.github.io/</id>
   <author>
-    <name><![CDATA[Bayes Impact]]></name>
+    <name><![CDATA[BayesImpact]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Hello We're In Your Home]]></title>
-    <link href="http://blog.bayesimpact.org/blog/hello-were-in-your-home/"/>
-    <updated>2014-06-29T17:13:02-07:00</updated>
-    <id>http://blog.bayesimpact.org/blog/hello-were-in-your-home</id>
-    <content type="html"><![CDATA[<p>Readymade PBR&amp;B typewriter keffiyeh, polaroid photo booth craft beer. Synth YOLO readymade forage artisan. Hoodie Banksy gastropub, letterpress banh mi skateboard direct trade ugh asymmetrical shabby chic tousled next level jean shorts put a bird on it. Kickstarter bitters Echo Park Truffaut tousled ennui paleo pork belly, seitan freegan Austin Portland semiotics Pinterest fanny pack. YOLO ennui Tumblr Pitchfork brunch. Fap church-key polaroid, banjo Portland art party brunch roof party DIY try-hard cardigan crucifix Helvetica. Farm-to-table PBR ugh, McSweeney&rsquo;s crucifix church-key Truffaut trust fund flexitarian locavore post-ironic.</p>
+    <title type="html"><![CDATA[The Bayes Impact Mission]]></title>
+    <link href="http://bayesimpact.github.io/blog/the-bayes-impact-mission/"/>
+    <updated>2014-07-01T10:13:02-07:00</updated>
+    <id>http://bayesimpact.github.io/blog/the-bayes-impact-mission</id>
+    <content type="html"><![CDATA[<h4 style="padding-top:8px;">Solving ambitious social challenges using data science</h4>
 
-<p>Hashtag post-ironic church-key viral, freegan blog shabby chic bitters. Ethnic lo-fi meggings dreamcatcher, drinking vinegar aesthetic Blue Bottle flexitarian. Wes Anderson post-ironic kitsch tofu, Intelligentsia Godard occupy cardigan ennui. Ugh artisan direct trade +1 fanny pack, flexitarian fap street art fashion axe freegan. Selfies salvia normcore twee farm-to-table 8-bit, whatever Intelligentsia food truck Etsy mustache shabby chic pop-up you probably haven&rsquo;t heard of them. Blog Vice lo-fi normcore Bushwick next level. Art party Wes Anderson slow-carb flannel small batch.</p>
 
-<p>Lomo Pinterest selfies, paleo trust fund gluten-free messenger bag readymade Tumblr pickled keffiyeh roof party vinyl. Post-ironic kale chips try-hard, selfies authentic ennui paleo. Butcher four loko +1 PBR&amp;B, bitters Wes Anderson Kickstarter ethical put a bird on it. Drinking vinegar Banksy DIY, cliche Etsy VHS Thundercats Portland bicycle rights church-key McSweeney&rsquo;s squid hashtag. Tumblr Vice hashtag Bushwick, Intelligentsia McSweeney&rsquo;s tattooed Banksy narwhal kogi. VHS readymade selfies, sriracha Vice Tumblr umami 8-bit Williamsburg hoodie chia pour-over wayfarers authentic. Messenger bag fixie bicycle rights, authentic retro +1 drinking vinegar selvage Pinterest gluten-free fashion axe.</p>
+<br>
 
-<p>Church-key chia cray, authentic swag cardigan Truffaut ethical jean shorts tofu wolf Blue Bottle salvia. Cray umami McSweeney&rsquo;s post-ironic. Fixie pickled seitan, drinking vinegar viral Etsy tofu polaroid cliche blog tousled. Twee mlkshk flexitarian, gastropub salvia mixtape plaid leggings blog. Salvia Pinterest Williamsburg, single-origin coffee lomo wolf locavore put a bird on it squid farm-to-table umami distillery Marfa. Chambray flexitarian crucifix, Echo Park hashtag cardigan disrupt messenger bag irony synth Etsy pug skateboard raw denim 8-bit. Kitsch wolf try-hard, VHS bitters Godard craft beer put a bird on it selvage Pinterest flexitarian art party.</p>
+
+<p>Over the past decade, we have all benefited from a better use of data: self-driving cars, personalized movie recommendations, smarter drug discovery — the list goes on. The underlying driver behind all of this is <span style="font-weight:900">data science</span>, an integration of statistics, computer science, math, and domain knowledge to extract knowledge from data. Amazon uses it to recommend items to add to your cart, Google and Facebook use it to show you the most relevant ads, and <a href="https://blog.uber.com/2011/05/16/uberdata-mapping-san-francisco-new-york-and-the-world/">Uber uses it to dispatch drivers to your location faster.</a></p>
+
+<p>With data science, we’re able to build increasingly complex systems at scale that not only provide insights but also are able to offer actionable predictions. It is an incredibly formidable tool that allows us to leverage the work of a few individuals to affect the lives of millions. If the tech sector is using data science to break open consumer and enterprise markets, we have to ask ourselves: <b>why haven’t we seen the same disruption in solving social challenges?</b></p>
+
+<p>The answer to that is multi-faceted:</p>
+
+<ul>
+<li style="line-height:32px;;padding-bottom:8px;">First and foremost, <b>integrating data-driven solutions to high impact problems is hard.</b> Solving these types of problems means convincing multiple stakeholders, governments, and private entities to change what they’re doing. It involves deeply transforming existing processes as well as working with messy (sometimes non-existent) data. Achieving impact requires a deep engagement model, deploying teams with the same level of focus and determination that successful startups need to have in disrupting markets.</li>
+<li style="line-height:32px;padding-bottom:8px;">Second, <b>getting smart people to work on social impact problems is hard.</b> Too many talented people go into finance and tech startups — and why shouldn’t they? The social sector pays less, moves slower, and generally does not attract the best of the best. But if we’re going to solve the really tough problems — prison overcrowding, homelessness, decreased competitiveness of our education systems, and so on — we need to convince the very best talent to shift their time away from selling ads and on to solving impactful problems.</li>
+<li style="line-height:32px;padding-bottom:8px;">Finally, <b>educating the social sector how best to utilize data science is hard.</b> It’s not a secret that the social sector lags behind industry and academia in its use of technology. The right data is not always captured and, when it is, not used to its full potential. Even when provided with dedicated, talented data scientists, many civic and nonprofit organizations will struggle initially with understanding how to structure data science problems, integrate solutions into underlying processes, or even speak the language.</li>
+</ul>
+
+
+<p>At Bayes Impact, our mission is to fix this. Our nonprofit deploys teams of talented data scientists to work on the world’s toughest social impact challenges — from reducing prison recidivism by building better risk assessment models to making micro-finance more economically viable through fraud detection to looking for early indicators of neurodegenerative disease using machine learning techniques. Solving high impact problems requires focus, so all of our data scientists are <a href="http://www.bayesimpact.org/fellowship">full-time fellows</a> that dedicate 100% of their time on a single social impact challenge for 6-12 months. To attract the best talent, we work on only the most interesting, high impact projects and provide mentorship from data science leaders in industry and academia. And to bridge the gap between the social sector and data scientists, we manage the projects the entire way, from scoping and defining problems through to execution and long-term sustainability.</p>
+
+<p>We already have some great people working on greater problems. If you’re a talented data scientist looking to do more with your skills or a social good organization looking to do more with your data, <a href="mailto:hello@bayesimpact.org">reach out to us</a>. The social sector doesn’t have to be left behind in the data science revolution—let’s solve the world’s toughest problems together.</p>
 ]]></content>
   </entry>
   

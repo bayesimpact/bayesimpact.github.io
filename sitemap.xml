@@ -3,33 +3,32 @@
   
   
   <url>
-    <loc>http://blog.bayesimpact.org/blog/hello-were-in-your-home/</loc>
-    <lastmod>2014-06-29T17:13:02-07:00</lastmod>
+    <loc>http://bayesimpact.github.io/blog/the-bayes-impact-mission/</loc>
+    <lastmod>2014-07-01T10:13:02-07:00</lastmod>
     <priority>0.8</priority>
   </url>
   
   
   <url>
-    <loc>http://blog.bayesimpact.org/blog/archives/</loc>
-    <lastmod>2014-07-01T01:53:48-07:00</lastmod>
+    <loc>http://bayesimpact.github.io/blog/archives/</loc>
+    <lastmod>2014-07-01T02:17:39-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>http://blog.bayesimpact.org/</loc>
-    <lastmod>2014-07-01T01:53:48-07:00</lastmod>
+    <loc>http://bayesimpact.github.io/</loc>
+    <lastmod>2014-07-01T02:17:39-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
-    <loc>http://blog.bayesimpact.org/past-posts.html</loc>
-    <lastmod>2014-07-01T01:53:48-07:00</lastmod>
+    <loc>http://bayesimpact.github.io/past-posts.html</loc>
+    <lastmod>2014-07-01T02:17:39-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   
 </urlset>
-et>

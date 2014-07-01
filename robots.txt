@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.bayesimpact.org/sitemap.xml 
+Sitemap: http://bayesimpact.github.io/sitemap.xml 
