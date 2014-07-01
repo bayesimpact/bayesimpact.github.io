@@ -4,7 +4,7 @@
   <title><![CDATA[Bayes Impact Blog]]></title>
   <link href="http://bayesimpact.github.io/atom.xml" rel="self"/>
   <link href="http://bayesimpact.github.io/"/>
-  <updated>2014-07-01T02:18:28-07:00</updated>
+  <updated>2014-07-01T02:23:55-07:00</updated>
   <id>http://bayesimpact.github.io/</id>
   <author>
     <name><![CDATA[Bayes Impact]]></name>
@@ -24,7 +24,7 @@
 <br>
 
 
-<p>Over the past decade, we have all benefited from a better use of data: self-driving cars, personalized movie recommendations, smarter drug discovery — the list goes on. The underlying driver behind all of this is <span style="font-weight:900">data science</span>, an integration of statistics, computer science, math, and domain knowledge to extract knowledge from data. Amazon uses it to recommend items to add to your cart, Google and Facebook use it to show you the most relevant ads, and <a href="https://blog.uber.com/2011/05/16/uberdata-mapping-san-francisco-new-york-and-the-world/">Uber uses it to dispatch drivers to your location faster.</a></p>
+<p>Over the past decade, we have all benefited from a better use of data: self-driving cars, personalized movie recommendations, smarter drug discovery — the list goes on. The underlying driver behind all of this is data science, an integration of statistics, computer science, math, and domain knowledge to extract knowledge from data. Amazon uses it to recommend items to add to your cart, Google and Facebook use it to show you the most relevant ads, and <a href="https://blog.uber.com/2011/05/16/uberdata-mapping-san-francisco-new-york-and-the-world/">Uber uses it to dispatch drivers to your location faster.</a></p>
 
 <p>With data science, we’re able to build increasingly complex systems at scale that not only provide insights but also are able to offer actionable predictions. It is an incredibly formidable tool that allows us to leverage the work of a few individuals to affect the lives of millions. If the tech sector is using data science to break open consumer and enterprise markets, we have to ask ourselves: <b>why haven’t we seen the same disruption in solving social challenges?</b></p>
 
