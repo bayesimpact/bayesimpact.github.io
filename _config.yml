@@ -105,8 +105,3 @@ facebook_like: false
 # ----------------------- #
 
 navigation:
-- text: Recent
-  url: /index.html
-
-- text: Past
-  url: /past-posts.html

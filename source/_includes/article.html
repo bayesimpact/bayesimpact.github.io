@@ -20,8 +20,9 @@
       {% endif %}
     </div>
     {% endif %}
-    <div class="span10 post-container">
-      <h2 class="link"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="span12 post-container">
+      {% if false %}<h2 class="link"><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h2>{% endif %}
+      <h1>{{ post.title }}</h1>
       {{ content | excerpt }}
       {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
       {% if excerpted == 'true' %} <a href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a> {% endif %}
@@ -30,17 +31,33 @@
 {% else %}
 <header>
   <div class="jumbotron smaller">
-    {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
-    {% if false %}<h5>{% include post/date.html %}<i class="icon-calendar-empty"></i> {{ time }}</h5>{% endif %}
-    {% if page.subtitle %}
-      {{% page.subtitle %}}
+    {% if false %}
+      {% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}
+      {% if false %}<h5>{% include post/date.html %}<i class="icon-calendar-empty"></i> {{ time }}</h5>{% endif %}
+      {% if page.subtitle %}
+        {{% page.subtitle %}}
+      {% endif %}
     {% endif %}
   </div>
 </header>
 <div class='container'>
   <div class="row-fluid">
-    <div class="span12">
+    <div class="span9">
+      <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      {% if false %}<h5>{% include post/date.html %}<i class="icon-calendar-empty"></i> {{ time }}</h5>{% endif %}
+      {% if page.subtitle %}
+        {{% page.subtitle %}}
+      {% endif %}
       {{ content }}
+    </div>
+    <div class='span3'>
+      <aside class="sidebar">
+        {% if site.blog_index_asides.size %}
+          {% include_array blog_index_asides %}
+        {% else %}
+          {% include_array default_asides %}
+        {% endif %}
+      </aside>
     </div>
   </div>
 </div>

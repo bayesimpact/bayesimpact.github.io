@@ -1,5 +1,5 @@
 <ul class="nav pull-right">
-  <li class='navlink-element'><span>Articles:</span></li>
+  {% if false %} <li class='navlink-element'><span>Articles:</span></li> {% endif %}
   {% for link in site.navigation %}
     <li {% if page.url == link.url %}class="active navlink"{% else %}class="navlink"{% endif %}><a href="{{ link.url }}">{{ link.text }}</a></li>
   {% endfor %}

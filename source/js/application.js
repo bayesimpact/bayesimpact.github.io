@@ -2,7 +2,7 @@
 
 function bindHeaderAnimation() {
   if ($(".navbar").length > 0) {
-    if ($(".navbar").offset().top > 50) {
+    if ($(".navbar").offset().top > 10) {
       $(".navbar-fixed-top").addClass("minimized");
     } else {
       $(".navbar-fixed-top").removeClass("minimized");
