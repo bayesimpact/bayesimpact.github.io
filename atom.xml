@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[BayesImpact Blog]]></title>
+  <title><![CDATA[Bayes Impact Blog]]></title>
   <link href="http://bayesimpact.github.io/atom.xml" rel="self"/>
   <link href="http://bayesimpact.github.io/"/>
-  <updated>2014-07-01T02:17:39-07:00</updated>
+  <updated>2014-07-01T02:18:28-07:00</updated>
   <id>http://bayesimpact.github.io/</id>
   <author>
-    <name><![CDATA[BayesImpact]]></name>
+    <name><![CDATA[Bayes Impact]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -33,7 +33,7 @@
 <ul>
 <li style="line-height:32px;;padding-bottom:8px;">First and foremost, <b>integrating data-driven solutions to high impact problems is hard.</b> Solving these types of problems means convincing multiple stakeholders, governments, and private entities to change what they’re doing. It involves deeply transforming existing processes as well as working with messy (sometimes non-existent) data. Achieving impact requires a deep engagement model, deploying teams with the same level of focus and determination that successful startups need to have in disrupting markets.</li>
 <li style="line-height:32px;padding-bottom:8px;">Second, <b>getting smart people to work on social impact problems is hard.</b> Too many talented people go into finance and tech startups — and why shouldn’t they? The social sector pays less, moves slower, and generally does not attract the best of the best. But if we’re going to solve the really tough problems — prison overcrowding, homelessness, decreased competitiveness of our education systems, and so on — we need to convince the very best talent to shift their time away from selling ads and on to solving impactful problems.</li>
-<li style="line-height:32px;padding-bottom:8px;">Finally, <b>educating the social sector how best to utilize data science is hard.</b> It’s not a secret that the social sector lags behind industry and academia in its use of technology. The right data is not always captured and, when it is, not used to its full potential. Even when provided with dedicated, talented data scientists, many civic and nonprofit organizations will struggle initially with understanding how to structure data science problems, integrate solutions into underlying processes, or even speak the language.</li>
+<li style="line-height:32px;padding-bottom:8px;">Finally, <b>educating the social sector how best to utilize data science is hard.</b> It’s not a secret that the social sector lags behind industry and academia in its use of technology. The right data is not always captured and, when it is, not used to its full potential. Many civic and nonprofit organizations will struggle initially with understanding how to structure data science problems, integrate solutions into underlying processes, or even speak the language.</li>
 </ul>
 
 
