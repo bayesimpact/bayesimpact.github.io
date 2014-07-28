@@ -26,6 +26,12 @@
   }
 }
 
+@media (min-width: 768px) {
+  .navbar {
+    height: 160px;
+  }
+}
+
 body {
   padding: 0 !important;
 }
@@ -38,7 +44,6 @@ body {
 .navbar {
   color: white;
   margin: 0 !important;
-  // padding: 30px;
   background: url('/images/bg.jpg') 50% 30%;
   background-size: cover;
   transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -46,7 +51,6 @@ body {
   -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
   &.minimized {
     padding: 0px;
-    // background: $navbar-color;
   }
   .brand {
     text-transform: uppercase;
@@ -55,12 +59,22 @@ body {
     margin: 0 auto !important;
   }
 
+  .navlink a.highlight-button{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 5px;
+  }
+
+  .pull-right {
+    padding-top: 17px;
+    box-sizing: border-box;
+  }
+
   .nav li.navlink a, .nav li.navlink-element span {
     display: block;
-    padding: 0 10px;
-    margin: 25px 5px;
-    line-height: 35px;
-    border-radius: 0;
+    padding: 6px 12px;
+    margin: 9px 3px 25px;
+    line-height: 20px;
     text-transform: uppercase;
 
     &:hover {
@@ -87,7 +101,7 @@ body {
 .jumbotron {
   text-align: center;
   text-shadow: rgb(0, 0, 0) 2px 2px 9px;
-  height: 70px;
+  height: 0px;
   padding: 0;
   background: white;
 }
@@ -127,4 +141,10 @@ body {
 p.footer {
   font-size: 12px;
   border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+
+#main p, #recent_posts .post {
+  font: 18px/1.831 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 300;
 }
