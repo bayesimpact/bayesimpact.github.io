@@ -41,6 +41,11 @@ body {
   z-index: 100;
 }
 
+#recent_posts {
+  position: relative;
+  top: -6px;
+}
+
 .navbar {
   color: white;
   margin: 0 !important;
@@ -147,4 +152,9 @@ p.footer {
 #main p, #recent_posts .post {
   font: 18px/1.831 'Helvetica Neue', 'Helvetica', sans-serif;
   font-weight: 300;
+}
+
+
+article h4 {
+  margin-bottom: 20px;
 }
